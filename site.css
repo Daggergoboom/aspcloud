@@ -462,6 +462,7 @@ color: var(--form-label-color);
 }
 
 .form-select-option {
+  text-align: left;;
   padding: 0.5rem 1rem;
   cursor: pointer;
   transition: background-color 0.1s ease-in-out;
