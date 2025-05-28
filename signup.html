@@ -29,11 +29,22 @@
             <div class="or-divider"><span>or</span></div>
                 
 
-            <form method="post" asp-controller="" asp-action="" novalidate>
-
-            </form>
+            <div class="form-group">
+                <label class="form-label">Client</label>
+                    <div class="form-select" data-placeholder="Choose a client">
+                <button type="button" class="form-select-trigger">
+                    <span class="form-select-text"></span>
+                </button>
+                <ul class="form-select-options">
+                    <li class="form-select-option" data-value="1">Client 1</li>
+                    <li class="form-select-option" data-value="2">Client 2</li>
+                </ul>
+                <input type="hidden" name="form-select-value" />
+                </div>
+            </div>
       
-    </div>
+            </form>
+          </div>
     <div class="card-footer">Already have an account? <a href="#">Log in</a></div>
      </div>
 </section>
