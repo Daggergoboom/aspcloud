@@ -2,6 +2,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300..700&family=Manrope:wght@200..800&family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
 
 :root {
+/* properties */
+--border-radius: 12px;
+
 
 /* fonts */
 
@@ -200,4 +203,36 @@ html, body {
   font-style: normal;
   color: var(--text-color);
   background-color: var(--background-color);
+}
+
+.center-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100dvh;
+}
+
+.card {
+  background-color: var(--card-background-color);
+  border: 1px solid var(--card-border-color);
+  color: var(--card-text-color);
+  padding: 1.2rem 1rem 1.2rem 1.5rem;
+  border-radius: var(--border-radius);
+  box-shadow: var(--box-shadow);
+
+
+.card-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 2rem;
+}
+
+.card-body {
+  margin: 0 2rem;
+}
+
+.card-footer {
+  margin-top: 2rem;
+}
 }
