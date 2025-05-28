@@ -141,6 +141,12 @@
     --form-input-border-color: var(--gray-400);
     --form-input-border-focus-color: var(--blue-semilight);
 
+
+    /* form - checkbox */
+    --form-checkbox-checked-color: var(--blue);
+
+
+
     /* form - input error */
     --form-error-input-text-color: var(--dark-400);
     --form-error-input-background-color: var(--white-100);
@@ -361,6 +367,8 @@ form {
     margin-bottom: 1rem;
 }
 
+
+
 .form-label {
     justify-content: left;
 font-size: 1em;
@@ -395,6 +403,10 @@ color: var(--form-label-color);
     font-size: 0.9em;
   }
 }
+
+
+
+
 
 .form-select {
   position: relative;

@@ -31,23 +31,34 @@
             <form method="post" asp-controller="" asp-action="" novalidate>
             <div class="form-group">
                 <label class="form-label">First Name</label>
-                <input class="form-input" text="text" placeholder="Enter first name" />
+                <input class="form-input" type="text" placeholder="Enter first name" />
             </div>
-            </form>
+                        <div class="form-group">
+                <label class="form-label">Last Name</label>
+                <input class="form-input" type="text" placeholder="Enter first name" />
+            </div>
+                        <div class="form-group">
+                <label class="form-label">Email</label>
+                <input class="form-input" type="email" placeholder="Enter email address" />
+            </div>
+                        <div class="form-group">
+                <label class="form-label">Password</label>
+                <input class="form-input" type="password" placeholder="Enter password" />
+            </div>
+                        <div class="form-group">
+                <label class="form-label">Confirm password</label>
+                <input class="form-input" type="password" placeholder="Confirm password" />
+            </div>
+            <div class="form-checkbox-group">
+            <label class="form-checkbox">
+                <input id="terms-checkbox" class="form-checkbox-input" type="checkbox" />
+                <span class="form-checkbox-box"></span>
+            </label>
+            <label for="terms-checkbox" class="form-label">I accept <a href="#">Terms and Conditions</a></label>
+            </div>
+            
 
-            <div class="form-group">
-                <label class="form-label">Client</label>
-                    <div class="form-select" data-placeholder="Choose a client">
-                <button type="button" class="form-select-trigger">
-                    <span class="form-select-text"></span>
-                </button>
-                <ul class="form-select-options">
-                    <li class="form-select-option" data-value="1">Client 1</li>
-                    <li class="form-select-option" data-value="2">Client 2</li>
-                </ul>
-                <input type="hidden" name="form-select-value" />
-                </div>
-            </div>
+
       
             </form>
           </div>
