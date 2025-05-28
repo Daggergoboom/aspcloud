@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300..700&family=Manrope:wght@200..800&family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
+
+:root {
+
+/* fonts * /
+
+--font-standard: "Nunito", sans-serif;
+--font-logo: "Comfortaa", sans-serif;
+--font-fontawesome-pro: "Font Awesome 6 Pro";
+
+
+
+/* standard colors */
+--blue-light-opacity: rgba(45, 125, 204, 0.10);
+--blue-light:        #DBEDFF;
+--blue-semilight:    #9DCEFF;
+--blue:              #2D99FF;
+--blue-dark:         #2D7DCC;
+
+--green-light:       #D8FFDF;
+--green-semilight:   #B3FFC0;
+--green:             #119B56;
+--green-dark:        #187848;
+
+--yellow-light:      #FFF6C7;
+--yellow-semilight:  #FFF3B4;
+--yellow:            #6C6102;
+--yellow-dark:       #8B7400;
+
+--red-light:         #FFEAe4;
+--red-semilight:     #FFB8A5;
+--red:               #DE3434;
+--red-dark:          #B83030;
+}
