@@ -220,6 +220,12 @@ html, body {
   height: 100dvh;
 }
 
+.backoffice-wrapper {
+  display: grid;
+  grid-template-columns: 300px 1fr;
+  height: 100dvh;
+}
+
 .card {
   background-color: var(--card-background-color);
   border: 1px solid var(--card-border-color);
@@ -529,8 +535,34 @@ textarea,
 
 }
 
+/* logotype */
+.logotype {
+
+  display: flex;
+  gap: 1rem;
+  font-size: 26px;
+  font-weight: 700;
+  font-family: var(--font-logo);
+}
 
 /* sections */
+#sidebar {
+
+  border-right: 1px solid var(--border-color);
+  padding: 2rem;
+}
+
+#header {
+
+  border-bottom: 1px solid var(--border-color);
+  padding: 2rem;
+}
+
+#main {
+ padding: 2rem;;
+}
+
+
 #signup,
 #login {
   .card {
