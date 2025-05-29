@@ -301,6 +301,33 @@ a {
 }
 
 /* buttons */
+
+.btn {
+    
+  transition: background-color 0.1s ease-in-out, border-color 0.1s ease-in-out, color 0.1s ease-in-out;
+    background-color: var(--btn-background-color);
+    border: 1px solid var(--btn-border-color);
+    color: var(--btn-text-color);
+    border-radius: var(--border-radius);
+    text-decoration: none;
+    font-size: 1em;
+    font-weight: 400;
+    font-style: normal;
+    font-family: var(--font-standard);
+    padding: 0.8rem 1.5rem;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+
+        &:hover {
+    background-color: var(--btn-hover-background-color);
+    border: 1px solid var(--btn-border-color);
+    color: var(--btn-hover-text-color);
+    }
+}
+
 .btn-external {
     transition: background-color 0.1s ease-in-out, border-color 0.1s ease-in-out, color 0.1s ease-in-out;
     background-color: var(--btn-external-background-color);
@@ -348,7 +375,7 @@ a {
   }
 
 span {
-    font-size: 0.95em;
+    font-size: 0.8em;
     text-transform: uppercase;
     color: var(--text-muted-semilight-color);
 }
@@ -504,7 +531,8 @@ textarea,
 
 
 /* sections */
-#signup {
+#signup,
+#login {
   .card {
     text-align: center;
     width: 550px;
@@ -513,5 +541,13 @@ textarea,
       justify-content: center;
       margin-top: 3rem;
     }
+
+    .card-footer {
+      margin-top: 3rem;
+    }
+  }
+
+  .form-checkbox-group {
+    margin: 2rem 0;
   }
 }
