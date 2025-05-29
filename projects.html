@@ -37,7 +37,19 @@
 
     </aside>
         <main> 
-                <header id="header">header</header>
+                <header id="header">
+                    <form class="search-form" method="get" asp-controller="" asp-action="" novalidate>
+                        <i class="fa-solid fa-magnifying-glass"></i>
+                    <input type="search" class="form-search-input" placeholder="Search anything..." />    
+                    </form>
+                    <button type="button" data-type="dropdown" data-target="#notifications" class="btn-notification">
+                        <i class="dot dot-red fa-solid fa-circle hide"></i>
+                        <i class="fa-duotone fa-solid fa-bell" style="--fa-primary-opacity: 0.4; --fa-secondary-opacity: 1;"></i>
+                    </button>
+                    <button type="button" data-type="dropdown" data-target="#account" class="btn-account">
+                        <img src="images/users/user-template-male-green.svg" alt="template avatar">
+                    </button>
+                </header>
                 <div id="main">
                     content
                 </div>
